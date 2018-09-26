@@ -78,6 +78,12 @@
     display: grid;
     grid-template-columns: 25% auto;
   }
+  @media only screen and (max-width: 900px) {
+    article {
+      grid-template-columns: auto;
+    }
+  }
+
 
   .gallery {
     display: grid;

@@ -54,6 +54,12 @@
     background-color: #1b1b1b;
   }
 
+  @media only screen and (max-width: 900px) {
+    main {
+      grid-template-columns: auto;
+    }
+  }
+
   .active{
     background-color: red;
   }

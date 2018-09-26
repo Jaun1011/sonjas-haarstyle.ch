@@ -59,7 +59,7 @@
   }
 
   article {
-    font-size: 20px;
+    font-size: 1em;
     background-color: #1b1b1b;
   }
 

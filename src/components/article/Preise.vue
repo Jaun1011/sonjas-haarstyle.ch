@@ -86,8 +86,7 @@
 
 
     <div class="text line">
-      Ab 30.08.2017 ist die neue Preisliste gültig.<br>
-      Alle Preise sind inklusive 8% MWST.
+      Alle Preise sind inklusive 7.7% MWST.
     </div>
 
 
@@ -102,6 +101,13 @@
     grid-template-row: auto auto;
 
   }
+
+  @media only screen and (max-width: 900px) {
+    article {
+      grid-template-columns: auto;
+    }
+  }
+
 
   .first {
     grid-row: 1 / 3;
@@ -161,7 +167,7 @@
           {label: "ausputzen", short: 12.00},
           {label: "schneiden, föhnen", short: 39.00, middle: 54.00, long: 68.00},
           {label: "Maschinenschnitt, Kranz", short: 31.00, middle: 36.00, long: 41.00},
-          {label: "Bart schneiden", short: 19.00},
+          {label: "Bart schneiden", short: 19.00, middle: "bis", long: 32 },
           {label: "färben (nach Aufwand)", short: 80.00, middle: 94.00, long: 106.00},
           {label: "MenReshade Service (nach Aufwand)", short: 50.00, middle: 64.00, long: 76.00}
         ],
@@ -174,8 +180,10 @@
       }
     },
     methods: {
-      prepareCurency(val) {
-        return val ? this.currency : ""
+      prepareCurency(n) {
+        if(!isNaN(parseFloat(n)) && isFinite(n))
+          return this.currency;
+        return "";
       },
     }
   }

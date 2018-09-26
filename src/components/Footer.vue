@@ -81,7 +81,7 @@
 <style scoped>
 
   h1 {
-    font-size: 20px;
+    font-size: 1.1em;
     color: #e80bc5;
   }
   a{
@@ -97,12 +97,20 @@
     border-top: solid 4px #e80bc5;
     background-color: #1c1f22;
 
-    padding: 0px 20px 20px 20px;
+    padding: 0.5em;
+    font-size: 1em;
+
     display: grid;
     grid-template-columns: auto auto auto;
 
-    font-size: 16px;
   }
+
+  @media only screen and (max-width: 900px) {
+    footer {
+      grid-template-columns: auto;
+    }
+  }
+
 
   table td {
     padding-right: 15px;

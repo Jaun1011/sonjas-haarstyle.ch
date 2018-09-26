@@ -1,9 +1,8 @@
 <template>
   <article>
-
-    <img src="static/pic/logo_dobi.jpg">
-    <img src="static/pic/logo_schwarzkopf.jpg">
-
+    <div class="image">
+      <img src="static/pic/logo_schwarzkopf.jpg">
+    </div>
     <div class="text">
 
       <h1>Schwarzkopf</h1>
@@ -18,6 +17,9 @@
       zuhause. Somit können Sie die Frisuren, die ich ihnen im Salon kreiere, auch zuhause nachstylen.
     </div>
 
+    <div class="image">
+      <img src="static/pic/logo_dobi.jpg">
+    </div>
     <div class="text">
 
 
@@ -37,7 +39,16 @@
   article {
 
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 15% auto;
+  }
+
+  @media only screen and (max-width: 900px) {
+    article {
+      grid-template-columns: auto;
+    }
+  }
+  .image{
+    margin: auto;
   }
 
   img {

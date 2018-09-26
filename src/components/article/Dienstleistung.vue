@@ -20,8 +20,8 @@
     <div class="text">
       <h1>Treuepass</h1>
 
-      Ihre Treue ist mir viel Wert. Bei Ihrem 10. Besuch erhalten Sie deshalb einen Rabatt von 10 % auf Ihre
-      Dienstleistung (exkl. Produkte). Den Treuepass können Sie bei mir im Salon deponieren, damit Sie ihn nicht nach
+      Ihre Treue ist uns viel Wert. Bei Ihrem 10. Besuch erhalten Sie deshalb einen Rabatt von 10 % auf Ihre
+      Dienstleistung (exkl. Produkte). Den Treuepass können Sie bei uns im Salon deponieren, damit Sie ihn nicht nach
       Hause nehmen müssen.
 
       <h2>Weiterempfehlung</h2>
@@ -35,8 +35,8 @@
     <div class="text">
       <h1>Splissbehandlung</h1>
 
-      Hast du lange Haare, die spröde und matt aussehen und es nötig hätten, ein Stück zu schneiden? Möchtest du jedoch
-      die Länge behalten? Dann kann ich dir ein 30- bis 60-minütiges Splissschneiden anbieten.
+      Haben Sie lange Haare, die spröde und matt aussehen und es nötig hätten, ein Stück zu schneiden? Möchten Sie jedoch
+      die Länge behalten? Dann können wir Ihnen ein 30 bis 60 minütiges Splissschneiden anbieten.
       Obwohl alle gespaltenen Haare auf der ganzen Länge entfernt werden, behälst du die Länge und das Haar sieht
       anschliessend wieder gepflegter und glänzender aus.
       Weitere Informationen erhalten Sie im Salon.
@@ -69,6 +69,13 @@
     grid-template-columns: auto auto;
   }
 
+  @media only screen and (max-width: 900px) {
+    article {
+      grid-template-columns: auto;
+    }
+  }
+
+
   .button{
     color:  #ffffff;
     border: solid 1px #ffffff;
@@ -85,6 +92,8 @@
     border: solid 20px #a4225f;
     width: 300px;
   }
+
+
 </style>
 
 

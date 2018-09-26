@@ -31,12 +31,18 @@
     grid-column-gap: 1em;
   }
 
+  @media only screen and (max-width: 900px) {
+    article {
+      grid-template-columns: auto;
+    }
+  }
+
   .image{
     display: block;
     margin: auto;
   }
   .imageStyle{
     border: solid 20px #e80bc5;
-    width: 300px;
+    width: 80%;
   }
 </style>

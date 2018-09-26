@@ -42,6 +42,13 @@
     display: grid;
     grid-template-columns: 1fr auto;
   }
+
+  @media only screen and (max-width: 900px) {
+    article {
+      grid-template-columns: auto;
+    }
+  }
+
   .side{
     padding: 1em;
   }
