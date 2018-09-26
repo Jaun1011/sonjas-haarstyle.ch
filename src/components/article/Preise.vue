@@ -51,7 +51,7 @@
         <tr>
           <th>Artikel</th>
           <th class="price">Mädchen</th>
-          <th class="price">Junge</th>
+          <th class="price">Jungen</th>
         </tr>
         </thead>
 
