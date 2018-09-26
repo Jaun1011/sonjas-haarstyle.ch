@@ -14,8 +14,8 @@
 
     <div class="pay">
       <h1>Zahlungsmöglichkeiten</h1>
-      Visa, MasterCard 2.5% <br>
-      Maestro, American Express 1.5%<br>
+      Visa, MasterCard, American Express 2.5%<br>
+      Maestro 1.5%<br>
       Zu Lasten des Kundes<br>
       <img src="static/icons/mastercard.svg">
       <img src="static/icons/maestro.svg">

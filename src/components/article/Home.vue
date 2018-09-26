@@ -38,11 +38,16 @@
   }
 
   .image{
-    display: block;
-    margin: auto;
+    height: 100%;
+    width: 100%;
   }
   .imageStyle{
+    width: 70%;
+    display: block;
+    margin: 1em auto;
+
     border: solid 20px #e80bc5;
-    width: 80%;
+
+
   }
 </style>

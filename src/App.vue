@@ -65,9 +65,9 @@
 
   .text{
     background-color: #10110d;
-    padding:1em 2em;
+    padding: 1em 2em;
     border: solid 3px black;
-    margin: 10px;
+    margin: 1em;
   }
 
   #app {
@@ -88,6 +88,7 @@
     width: 70%;
 
     margin: 0px auto;
+    max-height: 500px;
 
   }
 

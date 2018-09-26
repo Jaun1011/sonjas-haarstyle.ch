@@ -14,10 +14,8 @@
     <div class="text gallery">
       <a class="button"
          v-on:click="dec(selectPicture.index)"><</a>
-      <img class="gallery-pic"
-           v-bind:src="selectPicture.pic"/>
-      <a class="button"
-         v-on:click="inc(selectPicture.index)">></a>
+      <img class="gallery-pic" v-bind:src="selectPicture.pic"/>
+      <a class="button" v-on:click="inc(selectPicture.index)">></a>
     </div>
 
   </article>
@@ -78,30 +76,35 @@
     display: grid;
     grid-template-columns: 25% auto;
   }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+  }
+
+  .gallery-pic {
+    display: block;
+    max-height: 25em;
+
+    width: auto;
+    max-width: 80%;
+
+    margin: auto;
+  }
+
   @media only screen and (max-width: 900px) {
     article {
       grid-template-columns: auto;
     }
   }
 
-
-  .gallery {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-  }
-
-  .gallery-pic {
-    display: block;
-    height: 25em;
-    margin: auto;
-  }
-
   .button{
     margin: auto;
     color:  #ffffff;
     border: solid 1px #ffffff;
-    height: 1em;
-    padding: 0.3em;
+    padding: 2em 0.3em;
+
   }
   .button:hover{
     color:  #e80bc5;
