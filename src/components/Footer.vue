@@ -29,11 +29,11 @@
       <a target="_blank" rel="noopener noreferrer"
         href="https://www.google.ch/maps/place/Vechigenstrasse+16,+3076+Worb/@46.9323735,7.5625977,874m/data=!3m1!1e3!4m5!3m4!1s0x478e342edf32a533:0xce16060955cd2c49!8m2!3d46.9327893!4d7.562756">
         Sonjas-Haarstyle<br>
-        Vechigenstrasse 12<br>
+        Vechigenstrasse 16<br>
         3076 Worb<br>
       </a>
 
-      +41 31 84 20 122<br>
+      +41 31 832 41 94<br>
       <a target="_blank" rel="noopener noreferrer"
          href="https://www.instagram.com/sonjas_haarstyle/?hl=de">
         <img src="static/icons/instagram.svg">
