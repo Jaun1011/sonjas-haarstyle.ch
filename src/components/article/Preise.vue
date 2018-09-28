@@ -69,10 +69,10 @@
       <h1>Kosmetik</h1>
       <table>
         <thead>
-        <tr>
-          <th>Artikel</th>
-          <th class="price">Preis</th>
-        </tr>
+          <tr>
+            <th>Artikel</th>
+            <th class="price">Preis</th>
+          </tr>
         </thead>
 
         <tbody>
@@ -98,7 +98,6 @@
   article {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-row: auto auto;
 
   }
 
@@ -108,18 +107,16 @@
     }
   }
 
-
   .first {
     grid-row: 1 / 3;
   }
 
   table {
     width: 100%;
-    border-collapse: collapse;
   }
 
 
-  thead tr {
+  thead th {
     text-align: left;
     border-bottom: 1px solid white;
   }

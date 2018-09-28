@@ -1,8 +1,9 @@
 <template>
   <article>
     <div class="image">
-      <img src="static/pic/logo_schwarzkopf.jpg">
+      <img class="roundImage" src="static/pic/logo_schwarzkopf.jpg">
     </div>
+
     <div class="text">
 
       <h1>Schwarzkopf</h1>
@@ -18,8 +19,9 @@
     </div>
 
     <div class="image">
-      <img src="static/pic/logo_dobi.jpg">
+      <img class="roundImage" src="static/pic/logo_dobi.jpg">
     </div>
+
     <div class="text">
 
 
@@ -37,27 +39,16 @@
 
 <style scoped>
   article {
-
     display: grid;
-    grid-template-columns: 15% auto;
+    grid-template-columns: auto auto;
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 700px) {
     article {
       grid-template-columns: auto;
     }
   }
-  .image{
-    margin: auto;
-  }
 
-  img {
-    margin: 1em auto;
-    border: 2px solid #e80bc5;
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-  }
 </style>
 
 

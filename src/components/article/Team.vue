@@ -1,8 +1,7 @@
 <template>
   <article>
-    <div class="side">
-
-       <img src="static/pic/me.jpg"/>
+    <div class="image">
+       <img class="roundImage" src="static/pic/me.jpg"/>
     </div>
     <div class="text">
       <h1>Sonja Hofer</h1>
@@ -49,14 +48,4 @@
     }
   }
 
-  .side{
-    padding: 1em;
-  }
-
-  img {
-    border: 2px solid #e80bc5;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-  }
 </style>

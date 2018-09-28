@@ -70,6 +70,21 @@
     margin: 1em;
   }
 
+  .image{
+    display: block;
+    padding: 1em 2em;
+    margin: 1em;
+  }
+
+
+
+  .roundImage {
+    border: 2px solid #e80bc5;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+  }
+
   #app {
     grid-template-columns: 10% auto 10%;
     grid-template-rows: auto auto 1fr auto;
