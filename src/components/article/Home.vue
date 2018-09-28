@@ -11,7 +11,7 @@
       <br>
       Wir freuen uns auf Ihr Besuch
     </div>
-    <div class="image" >
+    <div class="quaderImage" >
       <img class="imageStyle" src="static/pic/geschaeft.jpg">
     </div>
 
@@ -37,10 +37,12 @@
     }
   }
 
-  .image{
+  .quaderImage{
     height: 100%;
     width: 100%;
   }
+
+
   .imageStyle{
     width: 70%;
     display: block;
