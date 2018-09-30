@@ -44,10 +44,19 @@
          href="https://de-de.facebook.com/sonjashaarstyle/">
         <img src="static/icons/facebook.svg">
       </a>
+
+
       <a target="_blank" rel="noopener noreferrer"
-         href="mailto:info@sonjas-haarstyle.ch">
+         href="mailto:hairstylistin@hotmail.ch" >
         <img src="static/icons/email.svg">
       </a>
+
+      <!--
+      <a target="_blank" rel="noopener noreferrer"
+         href="mailto:info@sonjas-haarstyle.ch" >
+        <img src="static/icons/email.svg">
+      </a>
+      -->
     </div>
   </footer>
 
