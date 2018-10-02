@@ -147,7 +147,7 @@
           {label: "waschen, schneiden föhnen/legen inkl. Kopfmassage", short: 78, middle: 84, long: 92},
           {label: "schneiden, föhnen", short: 73, middle: 79, long: 88},
           {label: "nur schneiden", short: 48, middle: 54, long: 61},
-          {label: "Fransen, Nacken, Kontur", short: 12, long: 54},
+          {label: "Fransen, Nacken, Kontur", short: 12, middle: "bis", long: 54},
           {label: "Split-Ender Pro pro min", short: 1.50},
           {label: "Hochsteckfrisur", short: 80, middle: "bis",long: 115,},
           {label: "färben (nach Aufwand)", short: 80, middle: 94, long: 106},
