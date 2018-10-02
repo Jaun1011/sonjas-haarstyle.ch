@@ -7,15 +7,16 @@
     <div class="text">
 
       <h1>Schwarzkopf</h1>
-      Ich habe mich einerseits für die Marke Schwarzkopf Professional entschieden, weil mich deren Produkte immer
-      zufrieden stellten. Bisher durfte ich miterleben, wie sie jeglichen Bedürfnissen der Haare gerecht
+      Wir haben uns einerseits für die Marke Schwarzkopf Professional entschieden, weil uns deren Produkte immer
+      zufrieden stellten. Bisher durften wir miterleben, wie sie jeglichen Bedürfnissen der Haare gerecht
       wurden. <br>
 
       Schwarzkopf Professional hat für jeden Haartyp das passende Produkt. Auch wenn die Produkte von
-      Schwarzkopf Professional nicht die preisgünstigsten sind, ist mir das Geld für meine Kundschaft Wert: Ich möchte
-      meinen Kunden nur das Beste vom Besten anbieten können.Die Produkte helfen mir zudem die verschiedenen Frisuren,
-      die Sie sich als Kunden wünschen, hinzubekommen. Die Produkte eignen sich ausserdem auch für den Gebrauch
-      zuhause. Somit können Sie die Frisuren, die ich ihnen im Salon kreiere, auch zuhause nachstylen.
+      Schwarzkopf Professional nicht die preisgünstigsten sind, ist Uns das Geld für die Kundschaft Wert:
+      Wir möchten unsere Kunden nur das Beste vom Besten anbieten können.
+      Die Produkte helfen uns zudem die verschiedenen Frisuren, die Sie sich als Kunden wünschen, hinzubekommen.
+      Die Produkte eignen sich ausserdem auch für den Gebrauch zuhause.
+      Somit können Sie die Frisuren, die Wir Ihnen im Salon kreiere, auch zuhause nachstylen.
     </div>
 
     <div class="image">
@@ -24,12 +25,11 @@
 
     <div class="text">
 
-
       <h1>Dobi</h1>
-      Auch bei der Auswahl der Produkte für das Färben und Tönen sind mir gute Produkte wichtig.
-      Mir ist es wichtig, dass ich mich auf die Farbergebnisse verlassen kann, was ich bei den Produkten von Venice
-      durchaus kann.
-      Aus diesem Grund habe ich mich für die Produkte der Marke Venice entschieden.
+      Auch bei der Auswahl der Produkte für das Färben und Tönen sind uns gute Produkte wichtig.
+      Uns ist es wichtig, dass wir uns auf die Farbergebnisse verlassen können,
+      was bei den Produkten von Dobi der Fall ist.
+      Aus diesem Grund haben wir uns für die Produkte der Marke Dobi entschieden.
       Die Produkte bieten eine Palette an schönen Tönen und auch die Abdeckung grauer Haare ist zu 100 % garantiert.
       Ein weiterer erfreulicher Punkt ist, dass hinter der Marke Venice ein Schweizer Produzent steckt.
 

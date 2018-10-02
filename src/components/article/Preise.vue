@@ -14,9 +14,9 @@
         <tbody>
         <tr v-for="(woman) in women">
           <td>{{woman.label}}</td>
-          <td class="price">{{woman.short}} {{prepareCurency(woman.short)}}</td>
-          <td class="price">{{woman.middle}} {{prepareCurency(woman.middle)}}</td>
-          <td class="price">{{woman.long}} {{prepareCurency(woman.long)}}</td>
+          <td class="price">{{woman.short}}</td>
+          <td class="price">{{woman.middle}}</td>
+          <td class="price">{{woman.long}}</td>
         </tr>
         </tbody>
       </table>
@@ -36,9 +36,9 @@
         <tbody>
         <tr v-for="(man) in men">
           <td>{{man.label}}</td>
-          <td class="price">{{man.short}} {{prepareCurency(man.short)}}</td>
-          <td class="price">{{man.middle}} {{prepareCurency(man.middle)}}</td>
-          <td class="price">{{man.long}} {{prepareCurency(man.long)}}</td>
+          <td class="price">{{man.short}} </td>
+          <td class="price">{{man.middle}}</td>
+          <td class="price">{{man.long}}</td>
         </tr>
         </tbody>
       </table>
@@ -58,11 +58,14 @@
         <tbody>
         <tr v-for="(child) in children">
           <td>{{child.label}}</td>
-          <td class="price">{{child.girl}} {{currency}}</td>
-          <td class="price">{{child.boy}} {{currency}}</td>
+          <td class="price">{{child.footnote? child.footnote: ""}} {{child.girl}}</td>
+          <td class="price">{{child.footnote? child.footnote: ""}} {{child.boy}}</td>
         </tr>
         </tbody>
       </table>
+
+      <br>
+      * Waschen ohne Shampoo bei Kindern 5.- Rabatt
     </div>
 
     <div class="text">
@@ -78,7 +81,7 @@
         <tbody>
         <tr v-for="(cosmetic) in cosmetics">
           <td>{{cosmetic.label}}</td>
-          <td class="price">{{cosmetic.price}} {{currency}}</td>
+          <td class="price">{{cosmetic.price}}</td>
         </tr>
         </tbody>
       </table>
@@ -86,7 +89,7 @@
 
 
     <div class="text line">
-      Alle Preise sind inklusive 7.7% MWST.
+      Alle Preise sind in CHF und inklusive  MWST.
     </div>
 
 
@@ -115,7 +118,6 @@
     width: 100%;
   }
 
-
   thead th {
     text-align: left;
     border-bottom: 1px solid white;
@@ -123,7 +125,6 @@
 
   .price {
     text-align: right;
-    padding-left: 1em;
   }
 
 </style>
@@ -134,7 +135,6 @@
     name: "Dienstleistung",
     data() {
       return {
-        currency: "Chf",
         cosmetics: [
           {label: "Brauen färben", price: 22},
           {label: "Wimpern färben", price: 22},
@@ -149,7 +149,7 @@
           {label: "nur schneiden", short: 48, middle: 54, long: 61},
           {label: "Fransen, Nacken, Kontur", short: 12, long: 54},
           {label: "Split-Ender Pro pro min", short: 1.50},
-          {label: "Hochsteckfrisur", short: 80, middle: 115,},
+          {label: "Hochsteckfrisur", short: 80, middle: "bis",long: 115,},
           {label: "färben (nach Aufwand)", short: 80, middle: 94, long: 106},
           {label: "tönen (nach Aufwand)", short: 70, middle: 84, long: 96},
           {label: "Fiberplex", short: 15, middle: 20, long: 25},
@@ -170,18 +170,14 @@
         ],
         children: [
           {label: "0 - 4 Jahre oder Maschinenschnitt", girl: 25.00, boy: 25.00},
-          {label: "5 - 7 Jahre", girl: 45.00, boy: 36.00},
-          {label: "8 - 10 Jahre", girl: 55.00, boy: 38.00},
-          {label: "11 - 16 Jahre", girl: 70.00, boy: 42.00}
+          {label: "5 - 7 Jahre", girl: 45.00, boy: 36.00, footnote: "*"},
+          {label: "8 - 10 Jahre", girl: 55.00, boy: 38.00,  footnote: "*"},
+          {label: "11 - 16 Jahre", girl: 70.00, boy: 42.00,  footnote: "*"}
         ]
       }
     },
     methods: {
-      prepareCurency(n) {
-        if(!isNaN(parseFloat(n)) && isFinite(n))
-          return this.currency;
-        return "";
-      },
+
     }
   }
 </script>

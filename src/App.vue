@@ -33,6 +33,10 @@
 
 <style>
 
+  table,tr,td,th{
+    margin: 0;
+    padding: 0;
+  }
   h1{
     font-size: 24px;
   }
@@ -65,7 +69,7 @@
 
   .text{
     background-color: #10110d;
-    padding: 1em 2em;
+    padding: 1em;
     border: solid 3px black;
     margin: 1em;
   }
@@ -75,8 +79,6 @@
     padding: 1em 2em;
     margin: 1em;
   }
-
-
 
   .roundImage {
     border: 2px solid #e80bc5;

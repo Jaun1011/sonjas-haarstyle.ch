@@ -51,7 +51,7 @@
       Die Schweiz hat noch kein verbot aber sie empfehlen es nicht.
       Der Grund ist das Haarfarben Allergische Reaktionen auslösen können und für Erwachsene entwickelt worden sind.
       Der Säureschutzmantel der die Kopfhaut schützt ist mit 16 Jahren noch nicht fertig ausgebildet.
-      Deshalb Empehle ich unter 16 Jahren nicht zu färben oder verlange eine Einverständniserklärung von den Eltern.
+      Deshalb empfehlen wir unter 16 Jahren nicht zu färben oder verlange eine Einverständniserklärung von den Eltern.
       <br>
       <br>
 
