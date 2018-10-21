@@ -45,6 +45,10 @@
         <img src="static/icons/facebook.svg">
       </a>
 
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://www.youtube.com/channel/UC6EOSY_vno7NSLkA_38usAg">
+        <img src="static/icons/youtube.svg">
+      </a>
 
       <a target="_blank" rel="noopener noreferrer"
          href="mailto:hairstylistin@hotmail.ch" >

@@ -16,7 +16,7 @@
       return {
         navigations: [
           {url: '/dienstleistung', label: 'Dienstleistung'},
-          {url: '/produkte', label: 'Produkte'},
+          {url: '/produkte', label: 'Partner'},
 
           {url: '/preise', label: 'Preise'},
           {url: '/team', label: 'Team'},
