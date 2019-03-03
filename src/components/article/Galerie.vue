@@ -13,7 +13,7 @@
 
     <div class="text gallery">
       <a class="button"
-         v-on:click="dec(selectPicture.index)"><</a>
+         v-on:click="dec(selectPicture.index)"></a>
       <img class="gallery-pic" v-bind:src="selectPicture.pic"/>
       <a class="button" v-on:click="inc(selectPicture.index)">></a>
     </div>
@@ -22,8 +22,11 @@
 </template>
 
 <script>
+
+
   export default {
     name: "Galerie",
+
     data() {
       const picGen = (preName, ending, number) => {
         let names = [];
@@ -66,8 +69,7 @@
         }
         this.selectPicture = this.gallery[index];
       }
-    }
-
+    },
   }
 </script>
 
