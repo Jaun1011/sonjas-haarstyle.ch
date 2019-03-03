@@ -1,4 +1,4 @@
-# Home 
+# Sonjas-Haarstyle.ch [![Build Status](https://travis-ci.org/magdesign/MAGmapper.svg?branch=master)](https://travis-ci.org/magdesign/MAGmapper) 
 Text
 
 # News
