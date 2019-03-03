@@ -4,21 +4,14 @@
     <div class="text">
       <div>      
         <h1>Instafeed</h1>
-                <div class='embedsocial-instagram' data-ref="fa3c9a38af2373d136db01853425d6356e342db2"></div>
-
-
-          <iframe id="insta" src="https://embedsocial.com/api/pro_album/instagram/fa3c9a38af2373d136db01853425d6356e342db2">
-          </iframe>
+        <iframe id="insta" src="https://embedsocial.com/api/pro_album/instagram/fa3c9a38af2373d136db01853425d6356e342db2">
+        </iframe>
       </div>
     </div>
 
     <div class="text">
-      <h1>News</h1>
-      <iframe 
-        id="youtube"
-        src="http://www.youtube.com/embed/p7c4BYAYd4o" 
-
-        ><br />
+      <h1>Videos</h1>
+      <iframe id="youtube" src="http://www.youtube.com/embed/p7c4BYAYd4o"> 
       </iframe>
     </div>
 
@@ -43,7 +36,7 @@
 
   #youtube {
     width: 95%; 
-  height: 400px;
+    height: 400px;
     border: none;
   }
 
@@ -52,4 +45,11 @@
     height: 1115px;
     border: none;
   }
+
+  @media only screen and (max-width: 700px) {
+    article {
+      grid-template-columns: auto;
+    }
+  }
+
 </style>
