@@ -3,7 +3,7 @@
     <div class="open">
       <h1>Öffnungszeiten</h1>
       <table>
-        <tr v-for="(time) in times">
+        <tr v-bind:key="(time) in times">
           <td>{{time.day}}</td>
           <td>{{time.early}}</td>
           <td>{{binding(time.late)}}</td>

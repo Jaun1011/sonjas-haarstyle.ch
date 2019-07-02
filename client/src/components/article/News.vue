@@ -11,7 +11,7 @@
 
     <div class="text">
       <h1>Videos</h1>
-      <iframe id="youtube" src="http://www.youtube.com/embed/p7c4BYAYd4o"> 
+      <iframe id="youtube" src="http://www.youtube.com/embed/p7c4BYAYd4o" width="420" height="315"> 
       </iframe>
     </div>
 
