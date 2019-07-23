@@ -37,6 +37,7 @@
 <style scoped>
   main {
     display: grid;
+
     grid-template-columns: auto auto auto auto auto auto;
   }
 
