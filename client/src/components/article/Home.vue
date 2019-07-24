@@ -12,7 +12,7 @@
       Unsere Spezialität ist Entspannung durch eine angenehme Kopfmassage.<br>
 
       <br>
-      Wir freuen uns auf Ihr Besuch
+      Wir freuen uns auf Ihr Besuch in Worb
     </div>
     <div class="quaderImage" >
       <img class="imageStyle" src="static/pic/geschaeft.jpg">
