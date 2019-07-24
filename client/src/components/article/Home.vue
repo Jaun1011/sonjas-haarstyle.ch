@@ -1,9 +1,11 @@
 <template>
   <article>
     <div class="text">
+      <h1>Coiffeur Salon mit Herz</h1>
 
       Unser Konzept ist sehr einfach: Es basiert darauf, Ruhe in den Alltag zu bringen,
-      da unser Leben immer hektischer und schnelllebiger wird. Wir nehmen uns daher für jeden Kunden genügend Zeit.<br>
+      da unser Leben immer hektischer und schnelllebiger wird. 
+      Wir nehmen uns daher für jeden Kunden genügend Zeit.<br>
       <br>
       Wir beherrschen noch das alte Handwerk. Bei uns wird der grösste Teil mit Schere und Messer geschnitten.<br>
       <br>
