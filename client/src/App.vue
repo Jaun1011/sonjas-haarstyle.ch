@@ -2,7 +2,7 @@
   <div id="app" class="wrapper">
 
     <header>
-      <img v-on:click="route('/')" src="static/pic/header.jpg">
+      <img v-on:click="route('/')" src="static/pic/shop.jpg">
     </header>
 
     <navigation></navigation>
@@ -85,6 +85,7 @@
     border-radius: 50%;
     height: 250px;
     width: 250px;
+    background-color: whitesmoke;
   }
 
   #app {

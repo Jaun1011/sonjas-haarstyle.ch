@@ -5,6 +5,7 @@
     </div>
     <div class="text">
       <h1>Sonja Lehmann-Hofer</h1>
+
       Coiffeuse sein ist mein Traumberuf und ich habe das Glück, dass ich ihn jeden Tag mit viel Freude, Leidenschaft und Herzblut ausüben darf.
       Bereits in meiner Lehrzeit war es ein Traum von mir, eines Tages mein eigenes Geschäft zu haben.
       Diesen Traum konnte ich mir am 8. September 2015 erfüllen, als ich meinen eigenen Salon in Worb eröffnen durfte.<br>
@@ -27,11 +28,6 @@
       Damit ich auf individuelle Wünsche eingehen kann und wir zusammen Frisuren entwickeln können,
       welche auch zu Hause wieder gelingen, nehme ich mir für jeden Kunden genügend Zeit.<br>
       <br>
-
-      Ich freue mich auf Ihren Besuch<br>
-      <br>
-
-      Ihre Coiffeuse Sonja Lehmann-Hofer
 
     </div>
 

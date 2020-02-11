@@ -86,6 +86,35 @@
 
     </div>
 
+    <div class="image">
+      <img class="roundImage" src="static/pic/logo_peggy_sage.png">
+    </div>
+
+    <div class="text">
+
+      <h1>Peggy Sage</h1>
+
+      Wir haben uns für das Make-up Sortiment  von Peggy Sage Paris entschieden, 
+      weil wir von der sehr guten Qualität und dem Preisleistungsverhältnis überzeugt sind. <br>
+
+      Aufgrund des grossen Sortiments ist es uns nicht möglich alle Produkte am Lager zu haben.<br>
+      Sehr gerne bestellen wir ihnen die tollen Produckte.
+    </div>
+
+
+    <div class="image">
+      <img class="roundImage" src="static/pic/logo_gallo.png">
+    </div>
+
+    <div class="text">
+
+      <h1>Gallo</h1>
+      Spezialisierter Hochzeitsfotograf mit viel Leidenschaft
+      Silvio Caradonna
+      <br>
+      <a href="https://www.fotogallo.ch">fotogallo.ch</a>
+
+    </div>
 
 
   </article>

@@ -11,11 +11,10 @@
 
     <div class="text">
       <h1>Videos</h1>
-      <iframe id="youtube" src="http://www.youtube.com/embed/p7c4BYAYd4o" width="420" height="315"> 
-      </iframe>
+      <iframe id="youtube" src="http://www.youtube.com/embed/lyrBrGjlDGU" width="420" height="315"></iframe> 
+      <iframe id="youtube" src="http://www.youtube.com/embed/p7c4BYAYd4o" width="420" height="315"></iframe>
     </div>
 
-    
   </article>
 </template>
 
@@ -38,6 +37,7 @@
     width: 95%; 
     height: 400px;
     border: none;
+    padding-top: 20px;
   }
 
   #insta {

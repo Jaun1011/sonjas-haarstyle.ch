@@ -15,7 +15,7 @@
       Wir freuen uns auf Ihr Besuch in Worb
     </div>
     <div class="quaderImage" >
-      <img class="imageStyle" src="static/pic/geschaeft.jpg">
+      <img class="imageStyle" src="static/pic/DSC_0135.jpg">
     </div>
 
   </article>
