@@ -131,48 +131,48 @@
 
 
 <script>
+
   export default {
     name: "Dienstleistung",
     data() {
+      function transormCSV(csv){
+        const values = csv.split(";")
+        let result = [];
+        for(let i = 0; i < values.length; i++){
+            if(i % 4 === 0){
+                result.push({
+                    label: values[i],
+                    short: values[i+1],
+                    middle: values[i+2],
+                    long: values[i+3],
+                })
+              };
+          }
+          console.log(result);
+        return result;
+      }
+
+
+
+      const csvwoman = "waschen, föhnen inkl. Kopfmassage;43;58.5;66;waschen, legen inkl. Kopfmassage;58.5;73.5;81.5;waschen, schneiden, föhnen inkl. Kopfmassage ( 60min / 60min / 75min );78;84;97.5;Aufpreis ( zusätzliche 15min );;19.5;;schneiden, föhnen ;73;79;92.5;nur schneiden ( ab 45min / 50min / 60min );58.5;65;78;Fransen, Nacken, Kontur  (pro min);1.3;1.3;;Split-Ender Pro  (pro min);1.3;1.3;;Hochsteckfrisur  ( 1h / 1,5h / 2h );88;127;166;färben  (  bis: 50ml/ 70ml / 100ml );85;94;106;tönen  (bis: 40ml / 60ml /  100ml );79;84;104;Aufpreis ( zusätzliche Farbe );12.8;;;Fiberplex ;20;;;Farbpflege  ( während der Farbe / 30ml / 60ml/  90ml);12;24;36;Schaumtönung ;44;58;73;Folienméches   ( 1h / 1,5h / 2h ) ;99;134;168;Haubenméches;;95;;Dauerwelle ganz   ( 1,5h / 1,5h / 2h );129;144;178;Dauerwelle halb  ;119;138;168;Hochzeitpaket inkl. Geschenk;;;;Braut Make - up & 1 Probetermin ( Probe 120min / Braut Make-up 90min);283;;;Brautfrisur & 1 Probestecken   ( Probe 120min / Braut Make-up 90min);315;;"
+      const csvmen = "waschen, schneiden föhnen inkl. Kopfmassage;58.5;78; 84.00 / 97.50;schneiden ( 30min / 45min / 60min );39;58.5;78;ausputzen (15 min);;19.5;;Maschinenschnitt, Kranz;33;41;47;Bart schneiden  ( 30min / 45min  );                                                     39.00 /  58.50;;;Schnurrbart ( 10 min );13;;;färben  ( bis: 50ml/ 70ml / 100ml );85;94;106;MenReshade Service  (nach Aufwand);58.5;78;84;"
+
+
       return {
         cosmetics: [
           {label: "Brauen färben", price: 22},
           {label: "Wimpern färben", price: 22},
-          {label: "Brauen zupfen", price: 26},
-          {label: "Tages Make - up", price: 70},
-          {label: "Braut Make - up", price: 110}
+          {label: "Brauen zupfen", price: 34},
+          {label: "Tages Make - up", price: 80},
+          {label: "Braut Make - up", price: 115}
         ],
-        women: [
-          {label: "waschen, föhnen/legen inkl. Kopfmassage", short: 43, middle: 49, long: 59},
-          {label: "waschen, schneiden föhnen/legen inkl. Kopfmassage", short: 78, middle: 84, long: 92},
-          {label: "schneiden, föhnen", short: 73, middle: 79, long: 88},
-          {label: "nur schneiden", short: 48, middle: 54, long: 61},
-          {label: "Fransen, Nacken, Kontur", short: 12, middle: "bis", long: 54},
-          {label: "Split-Ender Pro pro min", short: 1.50},
-          {label: "Hochsteckfrisur", short: 80, middle: "bis",long: 115,},
-          {label: "färben (nach Aufwand)", short: 80, middle: 94, long: 106},
-          {label: "tönen (nach Aufwand)", short: 70, middle: 84, long: 96},
-          {label: "Fiberplex", short: 15, middle: 20, long: 25},
-          {label: "Farbpflegemittel (nach Aufwand)", short: 29, middle: 36, long: 48},
-          {label: "Folienméches (nach Aufwand)", short: 80, middle: 104, long: 126},
-          {label: "Haubenméches (nach Aufwand)", short: 70},
-          {label: "Dauerwelle ganz (nach Aufwand)", short: 86, middle: 100, long: 122},
-          {label: "Dauerwelle halb (nach Aufwand)", short: 76, middle: 90, long: 112},
-        ],
-        men: [
-          {label: "waschen, schneiden föhnen inkl. Kopfmassage", short: 49.00, middle: 64.00, long: 78.00},
-          {label: "ausputzen", short: 12.00},
-          {label: "schneiden, föhnen", short: 39.00, middle: 54.00, long: 68.00},
-          {label: "Maschinenschnitt, Kranz", short: 31.00, middle: 36.00, long: 41.00},
-          {label: "Bart schneiden", short: 19.00, middle: "bis", long: 32 },
-          {label: "färben (nach Aufwand)", short: 80.00, middle: 94.00, long: 106.00},
-          {label: "MenReshade Service (nach Aufwand)", short: 50.00, middle: 64.00, long: 76.00}
-        ],
+        women: transormCSV(csvwoman),
+        men:  transormCSV(csvmen),
         children: [
           {label: "0 - 4 Jahre oder Maschinenschnitt", girl: 25.00, boy: 25.00},
-          {label: "5 - 7 Jahre", girl: 45.00, boy: 36.00, footnote: "*"},
-          {label: "8 - 10 Jahre", girl: 55.00, boy: 38.00,  footnote: "*"},
-          {label: "11 - 16 Jahre", girl: 70.00, boy: 42.00,  footnote: "*"}
+          {label: "5 - 7 Jahre", girl: 53.00, boy: 36.00, footnote: "*"},
+          {label: "8 - 10 Jahre", girl: 68.00, boy: 38.00,  footnote: "*"},
+          {label: "11 - 16 Jahre", girl: 78.00, boy: 42.00,  footnote: "*"}
         ]
       }
     },
