@@ -3,13 +3,17 @@
     <div class="text">
       <h1>Coiffeur Salon mit Herz</h1>
 
+      Momentan herschen spetzielle Massnahmen wegen der Coronakriese. <a href="static/doc/Schutzkonzept.pdf">Hier</a> können Sie nachlesen wie wir damit umgehen.      <br>
+
       Unser Konzept ist sehr einfach: Es basiert darauf, Ruhe in den Alltag zu bringen,
-      da unser Leben immer hektischer und schnelllebiger wird. 
+      da unser Leben immer hektischer und schnelllebiger wird.
       Wir nehmen uns daher für jeden Kunden genügend Zeit.<br>
       <br>
       Wir beherrschen noch das alte Handwerk. Bei uns wird der grösste Teil mit Schere und Messer geschnitten.<br>
       <br>
       Unsere Spezialität ist Entspannung durch eine angenehme Kopfmassage.<br>
+
+
 
       <br>
       Wir freuen uns auf Ihr Besuch in Worb
@@ -53,6 +57,11 @@
 
     border: solid 20px #e80bc5;
 
+
+  }
+
+  a{
+    color:  #e80bc5;
 
   }
 </style>
