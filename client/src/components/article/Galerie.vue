@@ -5,18 +5,20 @@
       <a v-for="(image) in gallery">
         <img
           class="thumbnail"
-          v-bind:src="image.thumbnail"
+          v-bind:src="'static/pic/gallerie/thumbnail/' + image.src"
           v-on:click="selectPicture = image"
         />
       </a>
+
     </div>
 
     <div class="text gallery">
       <a class="button"
          v-on:click="dec(selectPicture.index)"><</a>
-      <img class="gallery-pic" v-bind:src="selectPicture.pic"/>
+      <img class="gallery-pic" v-bind:src="'static/pic/gallerie/pics/' + selectPicture.src"/>
       <a class="button" v-on:click="inc(selectPicture.index)">></a>
     </div>
+
 
   </article>
 </template>
@@ -32,19 +34,28 @@
         let names = [];
         for (let i = 1; i <= number; i++) {
           names.push({
-            thumbnail: "static/pic/galerie/thumbnails/" + preName + i + "_tn" + ending,
-            pic: "static/pic/galerie/" + preName + i + ending,
+            src:  preName + i + ending
           });
         }
         return names;
       };
 
-      const gallery = picGen("makeup_", ".jpg", 7)
-        .concat(picGen("p", ".jpg", 28))
+      const gallery = [
+        {prename: "herr", amount:4 },
+        {prename: "hochsteckfrisur", amount:11},
+        {prename: "kinderschminken", amount:4},
+        {prename: "kurzhaar", amount:5},
+        {prename: "langhaar", amount:12},
+        {prename: "make-up", amount:17},
+      ]
+        .map(val => picGen(val.prename, ".jpg", val.amount))
+        .reduce((a,b) => a.concat(b))
         .map((value, index) => {
           value.index = index;
           return value;
         });
+
+        console.log(gallery)
 
       return {
         gallery: gallery,
