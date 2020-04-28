@@ -13,34 +13,31 @@
 
           <h1>Meine Verhaltens-und Hygieneregeln für Ihrensicheren Coiffeurbesuch</h1>
 
-          Die Gesundheit stehtan erster Stelle.
-          Um Ihnen einenentspanntenCoiffeurbesuchzu ermöglichen, habe ich mein eigenes Schutzkonzept erarbeitetanhand
-          der
-          Vorgaben des BAG.Bitte lesen Sie alles aufmerksam durch:
+          Die Gesundheit stehtan erster Stelle. Um Ihnen einen entspannten Coiffeurbesuch zu ermöglichen, habe ich mein eigenes Schutzkonzept erarbeitet anhand
+          der Vorgaben des BAG. Bitte lesen Sie alles aufmerksam durch:
 
 
           <ul>
             <li>Aus Hygienischen Gründen sind Mundschutz und Handschuhe obligatorisch. Sie erhalten alles im Salon zu
-              einem
-              solidarischen Preis von CHF2.00.
+              einem solidarischen Preis von CHF2.00.
             </li>
-            <li>KlingelnSiebeimEingangundwartenvorderTürbisichSieabhole.</li>
+            <li>Klingeln Sie beim Eingang und warten vor der Tür bis ich Sie abhole.</li>
             <li>Wir müssen auf das gewohnte Händeschüttelnverzichten.</li>
             <li>Bitte hängen Sie Ihre Jacke selbstständigauf.</li>
             <li>Hände gründlich waschenund bei der Markierung warten.</li>
             <li>Ich bringe Ihnen Handpaper, Schutzmaske und Handschuhe.</li>
-            <li>Ihr Stuhl, sämtlicheArbeitsflächensowie alle Arbeitsgeräte werden nach jedem Kunden gründlich
+            <li>Ihr Stuhl, sämtliche Arbeitsflächen sowie alle Arbeitsgeräte werden nach jedem Kunden gründlich
               desinfiziert.
             </li>
 
             <li>Ich bediene Sie mit Handschuhen, Schutzmaske, SchutzbrilleoderVisier.</li>
-            <li>Zeitschriftensowie Getränkekann ich Ihnen im Moment nicht anbieten.</li>
-            <li>Die WCBenützung ist nur im Notfallgestattet.</li>
+            <li>Zeitschriften sowie Getränkekann ich Ihnen im Moment nicht anbieten.</li>
+            <li>Die WC Benützung ist nur im Notfall gestattet.</li>
             <li>Die Bezahlung ohne Bargeldwird bevorzugt, es ist aber weiterhin möglich.</li>
-            <li>Terminekönnen nur telefonischvereinbart werden damit die Anzahl der Personen im Salon laut BAG nicht
+            <li>Termine können nur telefonisch vereinbart werden damit die Anzahl der Personen im Salon laut BAG nicht
               überschritten wird.
             </li>
-            <li>Es sind keine Begleitpersonen, auch keine Kinder, erlaubt.Sollte Ihr Kind ein Coiffeurbesuchhaben, dann
+            <li>Es sind keine Begleitpersonen, auch keine Kinder, erlaubt. Sollte Ihr Kind ein Coiffeurbesuchhaben, dann
               müssen alle Beteiligten eine Schutzmaske
               tragen und meine Hygieneregeln befolgen. Nach Möglichkeit warten die Eltern draussen.
             </li>
