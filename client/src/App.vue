@@ -19,7 +19,7 @@
 
 
           <ul>
-            <li>Aus hygienischen Gründen sind Mundschutz und Handschuhe obligatorisch. Sie erhalten alles im Salon zu einem solidarischen Preis von CHF2.00.
+            <li>Aus Hygienischen Gründen sind Mundschutz, Hände gründlich waschen und desinfizieren obligatorisch. Sie erhalten alles im Salon zu einem solidarischen Preis von CHF 2.00.
             </li>
             <li>Klingeln Sie beim Eingang und warten vor der Tür bis ich Sie abhole.</li>
             <li>Wir müssen auf das gewohnte Händeschütteln verzichten.</li>
