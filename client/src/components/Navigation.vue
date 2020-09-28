@@ -5,6 +5,12 @@
       {{navigation.label}}
 
     </nav>
+    <nav>
+      <a href="https://www.beautybooking.ch/app/booking.html?company=sonjas-haarstyle"> 
+      Termin Buchen      
+      </a>
+
+    </nav>
   </main>
 
 </template>
@@ -39,6 +45,11 @@
     display: grid;
 
     grid-template-columns: auto auto auto auto auto auto;
+  }
+
+  a{ 
+        color: #e80bc5;
+
   }
 
   nav {
