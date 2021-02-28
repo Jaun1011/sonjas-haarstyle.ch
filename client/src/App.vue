@@ -1,11 +1,13 @@
 <template>
   <div id="app" class="wrapper">
-    <div v-show="popup" class="popup">
+    
+    
+    <!--<div v-show="popup" class="popup">
       <div class="popup-text">
 
         <div class="popup-button">
 
-          <a v-on:click="popup = false">X</a>
+         <a v-on:click="popup = false">X</a>
 
         </div>
         <div>
@@ -67,8 +69,7 @@
 
 
       </div>
-    </div>
-
+    </div>-->
 
     <header>
       <img v-on:click="route('/')" src="static/pic/shop.jpg">
